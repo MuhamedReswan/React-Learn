@@ -1,7 +1,8 @@
 import React, {Component} from 'react'
 //1- import Todo from './component/Todo';
 //2- import Counter from './component/counter'
-import Forms from './component/forms';
+// 3- import Forms from './component/forms';
+import FormsUncontrol from './component/formsWithUncontrol';
 
 
 
@@ -44,14 +45,24 @@ state={
 
 
 
+// render(){
+//   return (
+//     <div className='formComponent'>
+// <h1>form component</h1>
+// <Forms/>
+//     </div>
+//   )
+// }
+
+
 render(){
   return (
-    <div className='formComponent'>
-<h1>form component</h1>
-<Forms/>
+    <div className='formWIthUncontrol'>
+<FormsUncontrol/>
     </div>
   )
 }
+
 
   }
 
